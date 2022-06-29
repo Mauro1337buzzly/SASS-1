@@ -1,0 +1,136 @@
+@import './_vars.scss';
+@import './_reset.scss';
+@import './_grid.scss';
+@import './footer.scss';
+@import './_remeras.scss';
+@import './_descuentos.scss';
+@import './_gorras.scss';
+@import './_riders.scss';
+@import './_buzos.scss';
+@import './_breakpoints.scss';
+
+body {  background-image: url(../img/fondo.jpg); }
+
+html { 
+ 	
+ 		font-family: impact;
+ 		text-align: center;
+ 		color: white;
+ 		overflow-x: hidden ;
+
+  }
+
+ header { 
+          background-color: rgba(0, 0, 0, 1.0);
+          background-image: url(../img/logo.png);
+          grid-area: header;
+          background-repeat: no-repeat;
+          background-size: auto;
+          background-position: center;
+
+  } 
+
+  nav	{  background-color: black;
+  			grid-area: nav;
+  			padding: 0;
+
+& img { width: 100px; }
+
+& ul{
+		list-style: none;
+		font-family: 'Major Mono Display', monospace;;
+			padding: 10px 0;
+
+
+			& li {
+		padding: 10px 0;
+
+		& a {
+			padding: 10px 0;
+			font-size: 2rem;
+			text-decoration: none;
+			color: white; }
+
+		
+
+
+						}
+
+			
+				}
+
+
+  		}
+
+
+ .section1 {  background-color: lightblue;
+				grid-area: section1;
+
+.section1 img { width: 100%;
+					height: 100%; }
+
+
+			}
+
+.section2  { background: linear-gradient(black, darkslategrey);;
+grid-area: section2;
+						}
+
+.section3  { 
+		grid-area: section3;
+
+& iframe { width: 100%;
+			align-items: center;
+			    }				
+		 }
+aside	{ 		background-color: white;
+			grid-area: aside; 
+
+		}
+.form-class{margin: 20px;
+	padding: 20px;
+	}	
+
+
+
+footer { background-color: black;
+		grid-area: footer; }
+
+nav ul li a { font-size: 20px; }					
+
+.section2 img { 
+
+		width: 100px;}
+
+
+header img { 	
+	width: 100%;
+	padding: 100px 20px 100px 0; }							
+
+ .mainFooterindex img { width: 100px;
+ 			height: 100px;	 }
+
+	.mainFooterindex h3 { font-size: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+			
+			
+
+	
+			
